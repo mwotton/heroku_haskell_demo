@@ -1,5 +1,5 @@
 get the haskell platform
-cabal install loli hack-handler-simple-server
+cabal install loli hack-handler-simpleserver
 ghc --make app.hs
 
 PORT=3001 ./app
