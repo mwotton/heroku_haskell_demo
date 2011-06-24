@@ -1,0 +1,13 @@
+get the haskell platform
+cabal install loli hack-handler-simple-server
+ghc --make app.hs
+
+PORT=3001 ./app
+
+➜  ~  sudo ab -n 2000 -c 20 http://127.0.0.1:3001/
+Requests per second:    9760.91 [#/sec] (mean)
+Time per request:       2.049 [ms] (mean)
+Time per request:       0.102 [ms] (mean, across all concurrent requests)
+Transfer rate:          0.00 [Kbytes/sec] received
+
+probably goes faster with the libevent backend, but this'll do for now.
