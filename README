@@ -1,4 +1,5 @@
 get the haskell platform
+  http://hackage.haskell.org/platform/linux.html
 cabal install loli hack-handler-simpleserver
 ghc --make app.hs
 
