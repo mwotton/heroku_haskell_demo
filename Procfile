@@ -1,1 +1,1 @@
-web: ls; ./app
+web: ls; ./run
