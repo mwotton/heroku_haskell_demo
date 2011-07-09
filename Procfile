@@ -1,1 +1,1 @@
-web: pwd; ls; ./run
+web: pwd; ls -a; ./run
