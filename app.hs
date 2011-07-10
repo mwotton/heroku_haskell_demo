@@ -10,4 +10,4 @@ main = do
     get "/echo/:user" $ do
       text . ("Hi, " ++) . fromJust . lookup "user" =<< captures
 
-    get "/" (text "also hello world")
+    get "/" (text "homebrew hello world")

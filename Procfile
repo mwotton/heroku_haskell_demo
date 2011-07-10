@@ -1,1 +1,1 @@
-web: whoami;pwd; ls -l; file app; ./run
+web: ./app +RTS -N4
